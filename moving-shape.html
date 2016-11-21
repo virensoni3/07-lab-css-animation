@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+
+<html lang="en-uk">
+<head>
+	<meta http-equiv="content-type" content="text/html;charset=UTF-8">
+	<title>CSS keyframes animation</title>
+	<style>
+	.moveme {
+	    width: 100px;
+	    height: 100px;
+	    background-color: red;
+	    position: relative;
+	    animation-name: example;
+	    animation-duration: 5s;
+	    /*animation-iteration-count: infinite;*/
+			animation-direction: alternate;
+	}
+
+	@keyframes example {
+	    0%   {background-color:red; left:0px; top:0px;}
+	    25%  {background-color:orange; left:200px; top:0px;}
+	    50%  {background-color:turquoise; left:200px; top:200px; border-radius: 50%;}
+	    75%  {background-color:mediumpurple; left:0px; top:200px;}
+	    100% {background-color:red; left:0px; top:0px;}
+	}
+
+	a:link, a:visited {display: block; color: #fff; text-align: center; padding-top: 32%; text-decoration: none;}
+	a:hover {color: #333}
+	</style>
+	</head>
+	<body>
+
+	<div class="moveme">
+		<a href="http://www.w3schools.com/css/tryit.asp?filename=trycss3_animation3">see w3c original</a>
+	</div>
+
+	</body>
+	</html>
