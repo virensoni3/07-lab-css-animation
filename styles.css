@@ -3,18 +3,18 @@
   height: 100px;
   background-color: red;
   position: relative;
-  animation-name: example;
+  animation-name: movingBox;
   animation-duration: 5s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
 }
 
-@keyframes example {
-  0%   {background-color:red; left:0px; top:0px;}
-  25%  {background-color:orange; left:200px; top:0px;}
-  50%  {background-color:turquoise; left:200px; top:200px; border-radius: 50%;}
-  75%  {background-color:mediumpurple; left:0px; top:200px;}
-  100% {background-color:red; left:0px; top:0px;}
+@keyframes movingBox {
+  0%   { background-color:rgb(255, 0, 0); left:0px; top:0px; }
+  25%  { background-color:rgb(255, 165, 0); left:200px; top:0px; }
+  50%  { background-color:rgb(64, 224, 208); left:200px; top:200px; border-radius: 50%; }
+  75%  { background-color:rgb(147, 112, 216); left:0px; top:200px; }
+  100% { background-color:rgb(255, 0, 0); left:0px; top:0px; }
 }
 
 a:link,
