@@ -1,8 +1,8 @@
-# Lab 05: CSS animation 01
+# Lab 07: CSS animation example
 
 A simple CSS animation demo with four stages.
 
-View the [GitHub page for this example](https://ctec3905.github.io/05-lab-css-animation/).
+View the [GitHub page for this example](https://ctec3905.github.io/07-lab-css-animation-example/).
 
 Note that animation makes processor demands, which are of special concern on mobile devices:
 
