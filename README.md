@@ -11,7 +11,7 @@ Note that animation makes processor demands, which are of special concern on mob
 - the CSS `transform` property uses a RenderLayer so the **GPU** can do the calculations
 - works for CSS `transform` property values: `translate`, `scale`, `rotate`, `opacity`
 
-## Bad practice: GPU is intensive, can by choppy
+## Bad practice: CPU is intensive, can by choppy
 
 - other properties need a more extensive screen redraw and 'trigger layout'
 - browser 'layout' forces the **CPU** to recalculate every frame
