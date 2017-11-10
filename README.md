@@ -6,12 +6,12 @@ View the [GitHub page for this example](https://ctec3905.github.io/05-lab-css-an
 
 Note that animation makes processor demands, which are of special concern on mobile devices:
 
-## Good practice
+## Good practice: GPU is fast, smooth
 
 - the CSS `transform` property uses a RenderLayer so the **GPU** can do the calculations
 - works for CSS `transform` property values: `translate`, `scale`, `rotate`, `opacity`
 
-## Bad practice
+## Bad practice: GPU is intensive, can by choppy
 
 - other properties need a more extensive screen redraw and 'trigger layout'
 - browser 'layout' forces the **CPU** to recalculate every frame
