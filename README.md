@@ -1,4 +1,4 @@
-# Lab 05: CSS animation 01
+# Lab 07: CSS animation example
 
 A simple CSS animation demo with four stages.
 
